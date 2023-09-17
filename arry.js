@@ -57,5 +57,5 @@ const hashedphone = splitphone[0] + "****" + splitphone[2]; // 010****1234
 splitphone[1] = "****"; //['010' , '****' , '1234']
 console.log(splitphhone.join("-")); //010-****=1234
 
-//split()  ->()안에 들어간 요소를 기준을 자릅니다  -> 배열화
+//split()  ->()안에 들어간 요소를 기준을 자름  -> 배열화
 //join()   ->()안에 들어간 요소를 배열의 요소 사이에 넣기  -> 문자열화
