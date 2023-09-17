@@ -43,7 +43,7 @@ console.log(arr4);
 
 const arr5 = apart.slice(-3, -1);
 console.log(arr5); // 훈이(-3), 스펀지밥(-2)
-//-를 붙이면 마지막 인덱스부터 -1로 계산해야함
+//-를 붙이면 마지막 인덱스부터 -1로 계산해야함!
 
 //apart.splice(start, count, item)
 apart.splice(3, 2, "hayoung");
@@ -58,4 +58,4 @@ splitphone[1] = "****"; //['010' , '****' , '1234']
 console.log(splitphhone.join("-")); //010-****=1234
 
 //split()  ->()안에 들어간 요소를 기준을 자릅니다  -> 배열화
-//join()   ->()안에 들어간 요소를 배열의 요소 사이에 넣습니다  -> 문자열화
+//join()   ->()안에 들어간 요소를 배열의 요소 사이에 넣기  -> 문자열화
