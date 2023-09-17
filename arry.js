@@ -43,7 +43,7 @@ console.log(arr4);
 
 const arr5 = apart.slice(-3, -1);
 console.log(arr5); // 훈이(-3), 스펀지밥(-2)
-//-를 붙이면 마지막 인덱스부터 -1로 계산
+//-를 붙이면 마지막 인덱스부터 -1로 계산해야함
 
 //apart.splice(start, count, item)
 apart.splice(3, 2, "hayoung");
